@@ -3,7 +3,7 @@ import { ShopContext } from '../context/ShopContext'
 import { assets } from '../assets/frontend_assets/assets';
 import { useLoaderData, useLocation } from 'react-router-dom';
 
-const Searchbar = () => {
+const SearchBar = () => {
 
     const { search,setSearch,showSearch,setShowSearch} = useContext(ShopContext);
     const [visible,setVisible] = useState(false)
@@ -29,4 +29,4 @@ const Searchbar = () => {
   ) : null
 }
 
-export default Searchbar
+export default SearchBar
